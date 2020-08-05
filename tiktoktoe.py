@@ -57,7 +57,7 @@ def handle_turn(player):
   position = input("Choose a position from 1-9: ")
 
   # Whatever the user inputs, make sure it is a valid input, and the spot is open
-  valid = False
+  valid = True
   while not valid:
 
     # Make sure the input is valid
